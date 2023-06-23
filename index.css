@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    margin-left: -130px;
+    font-size: 30px;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.content {
+    text-align: center;
+
+
+}
+
+.name1 {
+    font-size: 25px;
+    color: white;
+    margin-left: -130px;
+
+
+}
+
+.name {
+    font-size: 40px;
+    color: white;
+    padding-top: 20px;
+}
+
+.content .work {
+    color: white;
+    padding-top: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}
+
+.flex li {
+    list-style: none;
+    color: white;
+}
+
+.video {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.section2 {
+    height: 20vh;
+}
+
+.box-1 {
+    width: 100%;
+    height: 18rem;
+    position: relative;
+    font-size: 30px;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #4e4c4c
+}
+.portfolio{
+    text-align:center;
+    margin-top:60px;
+    height:8.5rem;
+    font-size:45px;
+    color:white;
+}
+.project
+{
+    text-align:center;
+    padding:3rem;
+    font-size:45px;
+    background-color: white;
+}
+.flex i
+{
+    font-size:22px;
+}
+.styling
+{
+    background-color:white;
+}
+.footer
+{
+    background-color:#2b2828;;
+    margin-top: -26px;
+    margin-bottom: -26px;
+    color:white;
+}
+
+.container
+{
+    padding: 50px 0px;
+    color:white;
+}
+
+.f-color
+{
+    color:white;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .video {
+        width: auto;
+        height: 100%;
+    }
+    
+}
+@media (max-width: 800px)
+{
+    .box-1
+    {
+      font-size:22px;
+    }
+}
